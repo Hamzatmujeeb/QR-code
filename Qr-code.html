@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Qr code genarating</title>
+</head>
+<body>
+  <div class="container">
+    <input type="text" value="" placeholder="Entet text...." class="input" id="text">
+    <button type="button" onclick="gnerateQPR()">Generate QPR</button>
+    <div id="qr-image">
+      <span class="error"></span>
+      <img src="image/qr.png" id="img">
+    </div>
+  </div>
+  <script src="assets/main.js"></script>
+</body>
+</html>
